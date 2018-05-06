@@ -17,6 +17,10 @@ def initialize (species)
   OWNER<<self
 end
 
+def self.count
+    OWNERS.size
+  end
+
 def say_species
   "I am a #{species}"
 end
