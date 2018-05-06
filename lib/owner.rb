@@ -4,12 +4,12 @@ class Owner
   attr_reader :species
 OWNER = []
 
-def self.all
-  OWNER
-end
-
 def self.reset_all
   OWNER.clear
+end
+
+def self.all
+  OWNER
 end
 
 def self.count
