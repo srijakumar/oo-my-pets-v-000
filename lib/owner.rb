@@ -13,7 +13,7 @@ def self.all
 end
 
 def self.count
-    OWNERS.size
+    OWNER.size
   end
 
 def initialize (species)
